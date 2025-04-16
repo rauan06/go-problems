@@ -12,13 +12,13 @@ func main() {
 
 	fmt.Printf("Длина строки: %d\n", len(s))
 
-	// Цикл по байтам
+	fmt.Print("Цикл по байтам: ")
 	for i := range s {
 		fmt.Print(string(s[i]))
 	}
 	fmt.Println()
 
-	// Цикл по рунам
+	fmt.Print("Цикл по рунам: ")
 	for _, r := range s {
 		fmt.Print(string(r))
 	}
